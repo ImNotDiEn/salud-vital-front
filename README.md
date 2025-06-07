@@ -15,9 +15,13 @@ Frontend del sistema de gestión de especialistas médicos para la clínica Salu
 1. Clona este repositorio:
 
    git clone https://github.com/tu-usuario/salud-vital-front.git
+   
    cd salud-vital-front
 
-2. Instala las dependencias:
+3. Instala las dependencias:
+
    npm install
+   
    Ejecuta el servidor de desarrollo:
+   
    npm run dev
