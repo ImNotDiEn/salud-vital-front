@@ -1,45 +1,23 @@
-# front
+# Salud Vital - Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend del sistema de gestión de especialistas médicos para la clínica Salud Vital. Este módulo permite al personal administrativo registrar, actualizar, visualizar y administrar la disponibilidad de los especialistas.
 
-## Recommended IDE Setup
+## Tecnologías utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Vue 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- Fetch API para llamadas HTTP
+- HTML5/CSS3
 
-## Type Support for `.vue` Imports in TS
+## Instalación
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+1. Clona este repositorio:
 
-## Customize configuration
+   git clone https://github.com/tu-usuario/salud-vital-front.git
+   cd salud-vital-front
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+2. Instala las dependencias:
+   npm install
+   Ejecuta el servidor de desarrollo:
+   npm run dev
